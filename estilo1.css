@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*esto es un comentario */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #F9F9F9;
+} 
+
+#contenedor{
+	width: 960px;
+	height: 400px;
+	background-color: #f0f0f0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#cabecera{
+	width: 960px;
+	height: 20px;
+	background-color:#E2211D;
+}
+
+
+#menu{
+	width: 960px;
+	height: 40px;
+	background-color:#F6DE1A;
+	padding: 5px 15px;
+}
+
+#contenido{
+	width: 960px;
+	height: 860px;
+	background-color:#ffffff;
+}
+
+#pie{
+	width: 960px;
+	height: 50px;
+	background-color:#343239;
+}
+
+
+#menu a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+
+#menu li{
+    display:inline-block;
+    width:20%;
+    padding:5px 10px;
+    background-color: #EF3737;
+    border:1px solid #000;
+    border-radius: 20px;
+    text-align:center;
+    color:#fff;
+    }
+
+ #menu li:hover{
+    background-color:#fff;
+    color:#000;
+    }
